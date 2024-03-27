@@ -144,7 +144,7 @@ class FormComponent extends React.Component {
   render() {
     return (
       <div className="main" >
-        <h3>SignUp Form</h3>
+        <h3>SignUp</h3>
         {this.state.isFormSubmitted ? (
           <div className="details">
             <h3>Thanks for signing up, find your details below:</h3>
